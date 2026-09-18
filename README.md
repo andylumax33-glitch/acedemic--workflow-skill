@@ -47,7 +47,9 @@ python -m pip install -r requirements.txt
 
 下载后可用 [`SHA256SUMS.txt`](./SHA256SUMS.txt) 校验文件完整性。
 
-## 校验安装到完整 Skill 集合后运行：
+## 校验
+
+安装到完整 Skill 集合后运行：
 
 ```bash
 # Codex
