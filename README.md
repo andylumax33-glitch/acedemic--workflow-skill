@@ -9,7 +9,7 @@
 - `academic-workflow-router/agents/openai.yaml`：Codex 调用元数据
 - `academic-workflow-router/scripts/validate_routes.py`：安装后路由引用校验脚本
 
-`dist/` 中的三个平台包已经把 MathModel Skill 与 Academic Workflow Router 打包在一起，下载对应平台的一个 ZIP 即可整套安装。
+仓库根目录中的三个平台包已经把 MathModel Skill 与 Academic Workflow Router 打包在一起，下载对应平台的一个 ZIP 即可整套安装。
 
 ## 安装
 
@@ -39,13 +39,13 @@ Trae        .trae/skills/academic-workflow-router/
 
 ## 一键安装完整套件
 
-从 [`dist/`](./dist/) 下载与你使用的 Agent 对应的一个包：
+从仓库根目录下载与你使用的 Agent 对应的一个包：
 
 | 平台 | 安装包 | 解压位置 |
 |---|---|---|
-| Codex | [`MathModel-Skill-Codex.zip`](./dist/MathModel-Skill-Codex.zip) | 项目根目录，保留 `.agents/skills/` |
-| Claude Code | [`MathModel-Skill-Claude-Code.zip`](./dist/MathModel-Skill-Claude-Code.zip) | 项目根目录，保留 `.claude/skills/` |
-| Trae | [`MathModel-Skill-Trae.zip`](./dist/MathModel-Skill-Trae.zip) | 项目根目录，保留 `.trae/skills/` |
+| Codex | [`MathModel-Skill-Codex.zip`](./MathModel-Skill-Codex.zip) | 项目根目录，保留 `.agents/skills/` |
+| Claude Code | [`MathModel-Skill-Claude-Code.zip`](./MathModel-Skill-Claude-Code.zip) | 项目根目录，保留 `.claude/skills/` |
+| Trae | [`MathModel-Skill-Trae.zip`](./MathModel-Skill-Trae.zip) | 项目根目录，保留 `.trae/skills/` |
 
 然后在项目根目录安装 Python 依赖：
 
@@ -55,7 +55,7 @@ python -m pip install -r requirements.txt
 
 一个项目只安装一个平台包，不要混装三个目录。包内同时包含数学建模工作流和 `academic-workflow-router`，解压后即可按对应平台调用。
 
-下载后可用 [`SHA256SUMS.txt`](./dist/SHA256SUMS.txt) 校验文件完整性。
+下载后可用 [`SHA256SUMS.txt`](./SHA256SUMS.txt) 校验文件完整性。
 
 ## 校验
 
