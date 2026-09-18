@@ -1,0 +1,3 @@
+afbf7d689791b82c44f8d861461fdf7f72f3c481e7576316ea99aef20be84a6f  MathModel-Skill-Claude-Code.zip
+c43c73f7fd381aff9e8a7b7e79dcf48f124ae7dd52edd297a217fdcf72719282  MathModel-Skill-Codex.zip
+524acb6effa153f53b088a9f1877a8859ca4b5fadf450e741f9ef670fa78683f  MathModel-Skill-Trae.zip
