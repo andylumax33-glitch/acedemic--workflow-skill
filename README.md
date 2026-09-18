@@ -47,12 +47,17 @@ python -m pip install -r requirements.txt
 
 下载后可用 [`SHA256SUMS.txt`](./SHA256SUMS.txt) 校验文件完整性。
 
-## 校验
-
-安装到完整 Skill 集合后运行：
+## 校验安装到完整 Skill 集合后运行：
 
 ```bash
-python academic-workflow-router/scripts/validate_routes.py
+# Codex
+python .agents/skills/academic-workflow-router/scripts/validate_routes.py
+
+# Claude Code
+python .claude/skills/academic-workflow-router/scripts/validate_routes.py
+
+# Trae
+python .trae/skills/academic-workflow-router/scripts/validate_routes.py
 ```
 
 校验会确认优先级表、必需的 Skill 引用和示例场景均存在。
